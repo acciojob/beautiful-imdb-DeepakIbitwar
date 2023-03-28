@@ -1,20 +1,21 @@
-<!DOCTYPE html>
+/* Your CSS Code here. */
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-<html>
+.moviePic {
+	height: 80vh;
+/*   height: 300px;
+  width: 200px; */
+  opacity: 0.8;
+}
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-	<div class="movie-container">
-	  <img class="moviePic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqKmXyaAgwU854_dpNUlVT0EYkBY_udMA9oQ" alt="Movie Poster">
-	  <p class="movieDetail">Movie description goes here</p>
-	</div>
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
-</html>
+.movieDetail {
+  position: relative;
+/*   top: -50px; */
+  width: 80%;
+  text-align: center;
+  font-size: 20px;
+}
